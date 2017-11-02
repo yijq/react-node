@@ -1,0 +1,13 @@
+
+
+@media only screen and (max-width : 1920px ) and ( min-width : 678px) {
+    .item-box{
+        width: 30%;
+    }
+}
+
+@media only screen and (max-width : 678px) {
+    .item-box{
+        width: 100%;
+    }
+}
