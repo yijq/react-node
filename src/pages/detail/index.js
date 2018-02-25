@@ -18,7 +18,7 @@ export default class DetailPage extends React.Component {
         let that = this
         let id = this.props.match.params.id
         console.log("match.params.id",id)
-        fetch('http://192.168.1.108:3000/detail?id='+id,{mode: "cors"})
+        fetch('http://192.168.1.107:3000/detail?id='+id,{mode: "cors"})
         .then(response => { console.log(response);return response.text()})
         .then(json => {
             console.log(json)

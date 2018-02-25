@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "data-server": "node ./data-server/app.js",
-    "start": "node ./data-server/app.js&&webpack-dev-server --hot --progress --color",
+    "start": "webpack-dev-server --hot --progress --color",
     "build": "webpack"
   },
   "keywords": [],

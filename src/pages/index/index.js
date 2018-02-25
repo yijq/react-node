@@ -17,7 +17,7 @@ export default class IndexPage extends React.Component {
 
     componentDidMount() {
         let that = this
-        fetch('http://192.168.1.108:3000/index',{mode: "cors"})
+        fetch('http://192.168.1.107:3000/index',{mode: "cors"})
         .then(response => { console.log(response);return response.text()})
         .then(json => {
             console.log(json)
